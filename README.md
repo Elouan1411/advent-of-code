@@ -41,5 +41,4 @@ In 2024, I completed the first few days.
 | [Day 02](https://adventofcode.com/2024/day/2) |   ![Java](https://img.shields.io/badge/Java-007396)   | [Solution](./2024/day2) |
 | [Day 03](https://adventofcode.com/2024/day/3) | ![Python](https://img.shields.io/badge/Python-3776AB) | [Solution](./2024/day3) |
 | [Day 04](https://adventofcode.com/2024/day/4) |   ![Rust](https://img.shields.io/badge/Rust-000000)   | [Solution](./2024/day4) |
-| [Day 05](https://adventofcode.com/2024/day/5) | ![Unknown](https://img.shields.io/badge/Unknown-gray) | [Solution](./2024/day5) |
 | [Day 06](https://adventofcode.com/2024/day/6) |      ![C](https://img.shields.io/badge/C-A8B9CC)      | [Solution](./2024/day6) |
