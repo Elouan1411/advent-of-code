@@ -18,20 +18,22 @@ In 2024, I completed the first few days.
 
 > Scheme is boring but it's a challenge, we take advantage of the first easier day for it.
 
-|                      Day                       |                           Language                            |         Solution         |
-| :--------------------------------------------: | :-----------------------------------------------------------: | :----------------------: |
-| [Day 01](https://adventofcode.com/2025/day/1)  |      ![Scheme](https://img.shields.io/badge/Scheme-gray)      | [Solution](./2025/day1)  |
-| [Day 02](https://adventofcode.com/2025/day/2)  |          ![C](https://img.shields.io/badge/C-A8B9CC)          | [Solution](./2025/day2)  |
-| [Day 03](https://adventofcode.com/2025/day/3)  |        ![C++](https://img.shields.io/badge/C++-00599C)        | [Solution](./2025/day3)  |
-| [Day 04](https://adventofcode.com/2025/day/4)  |       ![Java](https://img.shields.io/badge/Java-007396)       | [Solution](./2025/day4)  |
-| [Day 05](https://adventofcode.com/2025/day/5)  | ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E) | [Solution](./2025/day5)  |
-| [Day 06](https://adventofcode.com/2025/day/6)  |     ![Python](https://img.shields.io/badge/Python-3776AB)     | [Solution](./2025/day6)  |
-| [Day 07](https://adventofcode.com/2025/day/7)  |       ![Ruby](https://img.shields.io/badge/Ruby-CC342D)       | [Solution](./2025/day7)  |
-| [Day 08](https://adventofcode.com/2025/day/8)  |       ![Bash](https://img.shields.io/badge/Bash-4EAA25)       | [Solution](./2025/day8)  |
-| [Day 09](https://adventofcode.com/2025/day/9)  |       ![Rust](https://img.shields.io/badge/Rust-000000)       | [Solution](./2025/day9)  |
-| [Day 10](https://adventofcode.com/2025/day/10) |        ![PHP](https://img.shields.io/badge/PHP-777BB4)        | [Solution](./2025/day10) |
-| [Day 11](https://adventofcode.com/2025/day/11) |     ![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF)     | [Solution](./2025/day11) |
-| [Day 12](https://adventofcode.com/2025/day/12) |        ![Lua](https://img.shields.io/badge/Lua-2C2D72)        | [Solution](./2025/day12) |
+|                    Day                     |                      Language                       | Part 1 | Part 2 |      Solution      |
+| :----------------------------------------: | :-------------------------------------------------: | :----: | :----: | :----------------: |
+| [01](https://adventofcode.com/2025/day/1)  | ![Scheme](https://img.shields.io/badge/Scheme-gray) |   ✅   |   ✅   | [Solution](./day1) |
+| [02](https://adventofcode.com/2025/day/2)  |   ![Lua](https://img.shields.io/badge/Lua-2C2D72)   |   ✅   |   ✅   | [Solution](./day2) |
+| [03](https://adventofcode.com/2025/day/3)  |  ![Ruby](https://img.shields.io/badge/Ruby-CC342D)  |   ✅   |   ✅   | [Solution](./day3) |
+| [04](https://adventofcode.com/2025/day/4)  |  ![Bash](https://img.shields.io/badge/Bash-4EAA25)  |   ✅   |   ✅   | [Solution](./day4) |
+| [05](https://adventofcode.com/2025/day/5)  |  ![Rust](https://img.shields.io/badge/Rust-000000)  |   ✅   |   ✅   | [Solution](./day5) |
+| [06](https://adventofcode.com/2025/day/6)  |                                                     |   🕘   |   🕘   |                    |
+| [07](https://adventofcode.com/2025/day/7)  |                                                     |   🕘   |   🕘   |                    |
+| [08](https://adventofcode.com/2025/day/8)  |                                                     |   🕘   |   🕘   |                    |
+| [09](https://adventofcode.com/2025/day/9)  |                                                     |   🕘   |   🕘   |                    |
+| [10](https://adventofcode.com/2025/day/10) |                                                     |   🕘   |   🕘   |                    |
+| [11](https://adventofcode.com/2025/day/11) |                                                     |   🕘   |   🕘   |                    |
+| [12](https://adventofcode.com/2025/day/12) |                                                     |   🕘   |   🕘   |                    |
+
+Unfortunately, there were only 12 days proposed in 2025.
 
 ## 2024
 
