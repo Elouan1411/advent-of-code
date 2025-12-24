@@ -16,8 +16,6 @@ In 2024, I completed the first few days.
 
 ## 2025 : One day one language
 
-> Scheme is boring but it's a challenge, we take advantage of the first easier day for it.
-
 |                    Day                     |                      Language                       | Part 1 | Part 2 |        Solution         |
 | :----------------------------------------: | :-------------------------------------------------: | :----: | :----: | :---------------------: |
 | [01](https://adventofcode.com/2025/day/1)  | ![Scheme](https://img.shields.io/badge/Scheme-gray) |   ✅   |   ✅   | [Solution](./2025/day1) |
