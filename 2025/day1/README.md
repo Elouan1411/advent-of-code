@@ -1,5 +1,7 @@
 # Day 1: Scheme
 
+> Scheme is boring but it's a challenge, we take advantage of the first easier day for it.
+
 To run the solution for today, you need to have `racket` installed.
 
 ## Part 1

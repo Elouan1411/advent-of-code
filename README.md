@@ -35,7 +35,7 @@ In 2024, I completed the first few days.
 
 _Unfortunately, there were only 12 days proposed in 2025._
 
-## 2024
+## 2024 : The little discovery of the Advent of Code
 
 |                      Day                      |                       Language                        |        Solution         |
 | :-------------------------------------------: | :---------------------------------------------------: | :---------------------: |
