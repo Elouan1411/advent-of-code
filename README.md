@@ -14,7 +14,7 @@ For 2025, the challenge is with [killianmathias](https://github.com/killianmathi
 
 In 2024, I completed the first few days.
 
-## 2025
+## 2025 : One day one language
 
 > Scheme is boring but it's a challenge, we take advantage of the first easier day for it.
 
@@ -25,7 +25,7 @@ In 2024, I completed the first few days.
 | [03](https://adventofcode.com/2025/day/3)  |  ![Ruby](https://img.shields.io/badge/Ruby-CC342D)  |   ✅   |   ✅   | [Solution](./2025/day3) |
 | [04](https://adventofcode.com/2025/day/4)  |  ![Bash](https://img.shields.io/badge/Bash-4EAA25)  |   ✅   |   ✅   | [Solution](./2025/day4) |
 | [05](https://adventofcode.com/2025/day/5)  |  ![Rust](https://img.shields.io/badge/Rust-000000)  |   ✅   |   ✅   | [Solution](./2025/day5) |
-| [06](https://adventofcode.com/2025/day/6)  |                                                     |   🕘   |   🕘   |                         |
+| [06](https://adventofcode.com/2025/day/6)  |  ![PHP](https://img.shields.io/badge/PHP-777BB4)   |   ✅   |   ✅   | [Solution](./2025/day6) |
 | [07](https://adventofcode.com/2025/day/7)  |                                                     |   🕘   |   🕘   |                         |
 | [08](https://adventofcode.com/2025/day/8)  |                                                     |   🕘   |   🕘   |                         |
 | [09](https://adventofcode.com/2025/day/9)  |                                                     |   🕘   |   🕘   |                         |

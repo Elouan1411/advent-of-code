@@ -1,5 +1,7 @@
 # Advent of Code 2025
 
+> One day one language
+
 |                    Day                     |                           Language                            | Part 1 | Part 2 |       Solution       |
 | :----------------------------------------: | :-----------------------------------------------------------: | :----: | :----: | :------------------: |
 | [01](https://adventofcode.com/2025/day/1)  |      ![Scheme](https://img.shields.io/badge/Scheme-gray)      |   ✅   |   ✅   | [Solution](./day1) |
@@ -7,7 +9,7 @@
 | [03](https://adventofcode.com/2025/day/3)  |       ![Ruby](https://img.shields.io/badge/Ruby-CC342D)       |   ✅   |   ✅   | [Solution](./day3) |
 | [04](https://adventofcode.com/2025/day/4)  |       ![Bash](https://img.shields.io/badge/Bash-4EAA25)       |   ✅   |   ✅   | [Solution](./day4) |
 | [05](https://adventofcode.com/2025/day/5)  |       ![Rust](https://img.shields.io/badge/Rust-000000)       |   ✅   |   ✅   | [Solution](./day5) |
-| [06](https://adventofcode.com/2025/day/6)  |                                                               |   🕘   |   🕘   |                      |
+| [06](https://adventofcode.com/2025/day/6)  |   ![PHP](https://img.shields.io/badge/PHP-777BB4)     |   ✅   |   ✅   | [Solution](./day6) |
 | [07](https://adventofcode.com/2025/day/7)  |                                                               |   🕘   |   🕘   |                      |
 | [08](https://adventofcode.com/2025/day/8)  |                                                               |   🕘   |   🕘   |                      |
 | [09](https://adventofcode.com/2025/day/9)  |                                                               |   🕘   |   🕘   |                      |
