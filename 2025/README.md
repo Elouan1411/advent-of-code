@@ -11,7 +11,7 @@
 | [05](https://adventofcode.com/2025/day/5)  |  ![Rust](https://img.shields.io/badge/Rust-000000)  |   ✅   |   ✅   | [Solution](./day5) |
 | [06](https://adventofcode.com/2025/day/6)  |   ![PHP](https://img.shields.io/badge/PHP-777BB4)   |   ✅   |   ✅   | [Solution](./day6) |
 | [07](https://adventofcode.com/2025/day/7)  |     ![C](https://img.shields.io/badge/C-A8B9CC)     |   ✅   |   ✅   | [Solution](./day7) |
-| [08](https://adventofcode.com/2025/day/8)  |                                                     |   🕘   |   🕘   |                    |
+| [08](https://adventofcode.com/2025/day/8)  |  ![Java](https://img.shields.io/badge/Java-ED8B00)  |   ✅   |   ✅   | [Solution](./day8) |
 | [09](https://adventofcode.com/2025/day/9)  |                                                     |   🕘   |   🕘   |                    |
 | [10](https://adventofcode.com/2025/day/10) |                                                     |   🕘   |   🕘   |                    |
 | [11](https://adventofcode.com/2025/day/11) |                                                     |   🕘   |   🕘   |                    |
