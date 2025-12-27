@@ -2,72 +2,54 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 import java.util.Comparator;
 import java.util.HashSet;
 import java.util.Set;
 
-public class Part1 {
+public class Part2 {
 
     public static void main(String[] args) {
         boolean easy = false;
 
         String filePath;
-        int nbPairs;
         int optimization_scale;
         if (!easy) {
             filePath = "input.txt";
-            nbPairs = 1000;
-            optimization_scale = 40; // it's the minimum for get the good result
+            optimization_scale = 65; // it's the minimum for get the good result
         } else {
             filePath = "input-easy.txt";
-            nbPairs = 10;
-            optimization_scale = 2;
+            optimization_scale = 3;
         }
 
         List<Point3D> points = readFile(filePath);
         List<Edge> edges = filter(points, optimization_scale);
-        List<Edge> selected_edges = selectEdges(edges, nbPairs);
-        int[] groups = doGroup(selected_edges, points);
-        long res = computeRes(groups);
+        edges.sort(Comparator.comparingDouble(Edge::getDist));
+        Edge lastEdge = doGroup(edges, points);
+        if (lastEdge == null) {
+            System.out.println("increase optimization_scale for have result...");
+            return;
+        }
+        long res = computeRes(lastEdge);
 
         System.out.println("Answer : " + res);
     }
 
-    public static List<Edge> selectEdges(List<Edge> edges, int nbPairs) {
-        edges.sort(Comparator.comparingDouble(Edge::getDist));
-        return edges.subList(0, nbPairs);
-
-    }
-
-    public static int[] doGroup(List<Edge> edges, List<Point3D> points) {
+    public static Edge doGroup(List<Edge> edges, List<Point3D> points) {
         UnionFind uf = new UnionFind(points.size());
 
         for (Edge edge : edges) {
             uf.union(edge.getA(), edge.getB());
-        }
+            if (uf.isAllConnected()) {
+                return edge;
+            }
 
-        return uf.getAllSize();
+        }
+        return null;
     }
 
-    public static long computeRes(int[] allGroups) {
-        Arrays.sort(allGroups);
-
-        long res = 1;
-        int count = 0;
-
-        for (int i = allGroups.length - 1; i >= 0; i--) {
-            int size = allGroups[i];
-            res *= size;
-            count++;
-
-            if (count == 3) {
-                break;
-            }
-        }
-
-        return res;
+    public static long computeRes(Edge lastEdge) {
+        return lastEdge.multiplyX();
     }
 
     /**

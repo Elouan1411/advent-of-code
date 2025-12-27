@@ -1,11 +1,11 @@
 import java.util.Objects;
 
 public class Edge {
-    private int a, b;
+    private Point3D a, b;
     private double dist;
 
-    public Edge(int a, int b, double dist) {
-        if (a < b) {
+    public Edge(Point3D a, Point3D b, double dist) {
+        if (a.getId() < b.getId()) {
             this.a = a;
             this.b = b;
         } else {
@@ -16,15 +16,19 @@ public class Edge {
     }
 
     public int getA() {
-        return a;
+        return a.getId();
     }
 
     public int getB() {
-        return b;
+        return b.getId();
     }
 
     public double getDist() {
         return dist;
+    }
+
+    public long multiplyX() {
+        return (long) a.getX() * b.getX();
     }
 
     @Override

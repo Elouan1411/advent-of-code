@@ -4,10 +4,12 @@ import java.util.List;
 public class UnionFind {
     private int[] parent;
     private int[] size;
+    private int numGroups;
 
     public UnionFind(int n) {
         parent = new int[n];
         size = new int[n];
+        numGroups = n;
         for (int i = 0; i < n; i++) {
             parent[i] = i; // Everyone is their own boss initially
             size[i] = 1; // Size of each group is 1
@@ -34,11 +36,16 @@ public class UnionFind {
                 parent[rootJ] = rootI;
                 size[rootI] += size[rootJ];
             }
+            numGroups--;
         }
     }
 
     public boolean isRoot(int i) {
         return parent[i] == i;
+    }
+
+    public boolean isAllConnected() {
+        return numGroups == 1;
     }
 
     // return size of each group
