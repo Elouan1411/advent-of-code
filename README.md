@@ -10,6 +10,8 @@
 
 This is my repository for Advent of Code, some daily programming challenges during December.
 
+> **Note:** All solutions in this repository are written **100% without AI / LLMs**. Using AI would completely defeat the purpose and fun of problem-solving
+
 For 2025, the challenge is with [killianmathias](https://github.com/killianmathias) to use a different language every day! (A bit late due to exams).
 
 In 2024, I completed the first few days.
